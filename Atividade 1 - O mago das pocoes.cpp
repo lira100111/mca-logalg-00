@@ -1,4 +1,5 @@
 #include <stdio.h>
+// O C√≥digo est√° completo de fun√ß√µes recursivas, perdoe pelo excesso
 
 int tabela_mana_energia(int);
 int main (){
@@ -10,8 +11,8 @@ int main (){
 
 int tabela_mana_energia(int mana){
    int escolha;
-   printf("\n -- Tabela de PoÁıes -- ");
-   printf("\n 1 - Escolher PoÁ„o de Cura(Concede 15 pontos de Mana) \n 2 - Escolher PoÁ„o de Energia (Concede 25 pontos de mana)");
+   printf("\n -- Tabela de Po√ß√µes -- ");
+   printf("\n 1 - Escolher Po√ß√£o de Cura(Concede 15 pontos de Mana) \n 2 - Escolher Po√ß√£o de Energia (Concede 25 pontos de mana)");
    printf("\n Mana atual: %d", mana);
 
    printf("\nDigite a sua escolha: ");
